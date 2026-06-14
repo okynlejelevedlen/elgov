@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eleued Government</title>
+    <script src="index.js"></script>
+    <link href="index.css" rel="stylesheet">
+</head>
+    <header>
+        <label for="lang-switcher" dint="lang_switch"></label><select id="lang-switcher">
+            <option value="en">English</option>
+            <option value="ed">Eleued</option>
+        </select>
+        <h1 dint="welcome"></h1>
+    </header>
+    <body>
+        <h2 dint="news"></h2>
+    </body>
+    <footer>
+
+    </footer>
+</html>
+
+<script>
+    document.getElementById('lang-switcher').addEventListener('change', (e) => {
+        changeLanguage(e.target.value);
+    });
+</script>
