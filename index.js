@@ -6,7 +6,7 @@ async function changeLanguage(lang) {
         document.querySelectorAll('dint').forEach(element => {
             const key = element.getAttribute('dint');
             if (translations[key]) {
-                element.textContent = translations[key];
+                element.innerHTML = translations[key];
             }
         });
     } catch (error) {
