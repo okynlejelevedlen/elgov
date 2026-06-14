@@ -7,17 +7,30 @@
     <link href="index.css" rel="stylesheet">
 </head>
     <header>
-        <label for="lang-switcher" dint="lang_switch"></label><select id="lang-switcher">
-            <option value="en">English</option>
-            <option value="ed">Eleued</option>
-        </select>
-        <h1 dint="welcome"></h1>
+        <h1 data-i18n="welcome"></h1>
+        <div id="nav">
+            <a href="./index.html" data-i18n="index"></a> - 
+            <a href="./government.html" data-i18n="government"></a> - 
+            <a href="./culture.html" data-i18n="culture"></a>
+        </div>
     </header>
-    <body>
-        <h2 dint="news"></h2>
-    </body>
-    <footer>
 
+    <!--Main content-->
+    <body>
+        <h2 data-i18n="news"></h2>
+
+        <h2 data-i18n="info-h"></h2>
+        <p data-i18n="info-p"></p>
+        <p data-i18n="info-p2"></p>
+    </body>
+
+    <hr>
+
+    <footer>
+        <select id="lang-switcher">
+            <option value="ed">Eleued</option>
+            <option value="en">English</option>
+        </select>
     </footer>
 </html>
 
