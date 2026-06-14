@@ -2,10 +2,18 @@
   "welcome": "Welcome to the website of the Kingdom of Eleuedla",
   "news": "News",
   "lang_switch": "Change language",
+
   "index": "Index",
   "government": "Government",
   "culture": "Culture",
+  "legislation": "Legislation",
+
   "info-h": "Information about the Government",
   "info-p": "The government is an absolute monarchy located in California. It is distinguished from other micronations, because it explicitely believes in Integralism and Catholicism.",
-  "info-p2": "The King is Elias Oberholtz."
+  "info-p2": "The King is Elias Oberholtz.",
+
+  "legislation-p": "The Kingdom of Eleuedla has legislation from the present day all the way back to the Provisional State of Clovisia.",
+  "legis-clovisia": "Provisional State of Clovisia",
+  "legis-eo_i": "Kingdom of Eleuedla - King Elias I Oberholtz",
+  "legis-eo_i-p": "No Chancellor"
 }
