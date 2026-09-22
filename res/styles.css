@@ -4,42 +4,56 @@ html {
     overflow-y: scroll;
 }
 
+header {
+    border-style: double;
+    height: 120px;
+    text-align: center;
+}
+
+nav {
+    padding: 0.2em;
+    padding-bottom: 0px;
+}
+
+nav a {
+    color: rgb(0, 255, 128);
+    font-style: italic;
+    text-decoration: none;
+    display: inline-block;
+    transition: all ease 300ms;
+}
+
+nav a:hover {
+    color: rgb(1, 192, 96);
+}
+
+nav a:visited {
+    color:rgb(0, 255, 128)
+}
+
+nav #hnav {
+    color: white;
+    text-decoration: none;
+}
+
+nav #hnav:visited {
+    color: white;
+}
+
 body {
     font-family: 'EB Garamond';
     background: rgb(14, 13, 13);
     color: white;
     width: 700px;
-    border-style: double;
     margin: auto;
 }
 
-header {
+main, footer {
+    padding: 10px;
     border-style: double;
-    height: 125px;
 }
 
-a {
-    color: rgb(46, 226, 157);
+main a {
+    color: rgb(0, 183, 255);
     font-style: italic;
-}
-
-.navh {
-    font-style: normal;
-    font-size: 61px;
-    color: white;
-    padding: 25px;
-    display: inline;
-}
-
-nav{
-    padding: 10px 15px 0px 15px;
-    background:black;
-    border-style: double;
-    height: 30px;
-}
-
-.navimg {
-    float: left;
-    width: 10%;
-    display: inline;
 }
